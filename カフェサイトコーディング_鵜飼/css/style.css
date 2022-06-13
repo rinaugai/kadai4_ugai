@@ -96,7 +96,8 @@ body {
     margin: 100px auto;
     font-size: 30px;
     line-height: 1.6;
-    width: 1000px;
+    max-width: 1000px;
+    padding: 0 10px;
 }
 
 .copy h1 {
@@ -106,15 +107,23 @@ body {
     font-weight: normal;
 }
 
+.copy p{
+    font-size: 23px;
+    line-height: 1.65;
+    max-width: 844px;
+    margin: 0 auto;
+}
+
 #about_us {
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto 50px;
+    align-items: center;
+    padding: 0 10px;
 }
 .img_photo  {
-    width: 500px;
-     height: 560px;
+    width: 50%;
 }
 
 .img_photo img {
@@ -123,8 +132,8 @@ body {
 }
 
 .inner_aboutus {
-    width: 410px;
-    padding: 60px 0 40px 0;
+    width: 41%;
+    /* padding: 60px 0 40px 0; */
 }
 .inner_aboutus h2 {
     margin-bottom: 35px;
@@ -144,8 +153,9 @@ body {
 }
 
 #menu {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 #menu .img_photo{
@@ -155,8 +165,8 @@ body {
 }
 
 #menu .img_menulogo{
-    width: 151px;
-    margin: 0 auto 48px;
+    width: 150px;
+    margin: 0 auto 26px;
 }
 
 .inner_menu{
@@ -181,9 +191,95 @@ body {
 
 .img_gallerylogo {
     width: 245px;
+    margin: 75px auto 26px;
 }
 
+.img_gallery {
+    width: 20%;
+    display: flex;
+}
+
+#event {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
 .img_eventlogo {
-width: 173px;
+    width: 173px;
+    margin: 65px auto 38px;
+
 }
+
+.article {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    font-size: 23px;
+    margin: 0 auto 22px;
+    font-weight: normal;
+}
+
+.article:last-child {
+    margin: 0 auto;
+}
+
+.article time {
+    width: 10.4%;
+}
+
+.article p {
+    width: 51%;
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 55px;
+}
+
+.box {
+    padding: 35px 0;
+    font-weight: bold;
+    border: solid 3px #4f260b;
+    background-color: #fff;
+}
+
+
+.img_accesslogo {
+    width: 213px;
+    margin: 56px auto 22px;
+}
+
+.map {
+    width: 100%;
+}
+
+
+.footer_logo {
+    width: 226px;
+}
+
+.footer_info {
+    display: flex;
+    font-size: 20px;
+    max-width: 1000px;
+    padding: 86px 24% 82px;
+    background-color: #fff;;
+}
+
+.cafe_info {
+    margin-left: 68px;
+    line-height: 1.95;
+}
+
+.copyright {
+    width: 12%;
+    padding: 0 44% 80px;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+.page_top_btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 125px;
+  }
+
