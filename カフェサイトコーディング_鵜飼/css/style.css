@@ -110,7 +110,6 @@ body {
 .copy p{
     font-size: 23px;
     line-height: 1.65;
-    max-width: 844px;
     margin: 0 auto;
 }
 
@@ -128,7 +127,6 @@ body {
 
 .img_photo img {
    border-radius: 0 0 82px 0;
-   object-fit: contain;
 }
 
 .inner_aboutus {
@@ -158,10 +156,11 @@ body {
     padding: 0 10px;
 }
 
-#menu .img_photo{
+.menu .img_menu img{
     width: 300px;
-    height: 200px;
     margin: 0 auto;
+    border-radius: 0 42px 0 0;
+    object-fit: contain;
 }
 
 #menu .img_menulogo{
@@ -175,7 +174,7 @@ body {
 }
 
 .menu {
-    width: 300px;
+    width: 30%;
 }
 
 .menu h2 {
@@ -214,7 +213,6 @@ body {
 .article {
     display: flex;
     justify-content: center;
-    max-width: 1000px;
     font-size: 23px;
     margin: 0 auto 22px;
     font-weight: normal;
@@ -233,6 +231,7 @@ body {
     text-align: left;
     text-decoration: underline;
     margin-left: 55px;
+    line-height: 1.5;
 }
 
 .box {
@@ -253,6 +252,9 @@ body {
     height: 471px;
 }
 
+footer {
+    background-color: #fff;
+}
 
 .footer_logo {
     width: 226px;
@@ -262,8 +264,9 @@ body {
     display: flex;
     font-size: 20px;
     max-width: 1000px;
-    padding: 86px 24% 82px;
+    padding: 86px 0 82px;
     background-color: #fff;;
+    margin: 0 auto;
 }
 
 .cafe_info {
@@ -272,10 +275,10 @@ body {
 }
 
 .copyright {
-    width: 12%;
-    padding: 0 44% 80px;
     font-size: 16px;
     background-color: #fff;
+    text-align: center;
+    padding-bottom: 82px;
 }
 
 .page_top_btn {
