@@ -107,11 +107,18 @@ body {
     font-weight: normal;
 }
 
+
+
 .copy p{
     font-size: 23px;
     line-height: 1.65;
     margin: 0 auto;
 }
+
+.sp_copy{
+    display: none;
+}
+
 
 #about_us {
     display: flex;
@@ -121,6 +128,7 @@ body {
     align-items: center;
     padding: 0 10px;
 }
+
 .img_photo  {
     width: 50%;
 }
@@ -133,7 +141,7 @@ body {
     width: 41%;
     /* padding: 60px 0 40px 0; */
 }
-.inner_aboutus h2 {
+.inner_aboutus h3 {
     margin-bottom: 35px;
     font-size: 44px;
     line-height: 1.3;
@@ -148,6 +156,10 @@ body {
 .img_aboutuslogo {
     width: 272px;
     margin-bottom: 39px;
+}
+
+.sp_aboutuslogo {
+    display: none;
 }
 
 #menu {
@@ -177,7 +189,7 @@ body {
     width: 30%;
 }
 
-.menu h2 {
+.menu h3 {
     font-size: 38px;
     color: #d30202;
     margin: -12px auto 24px 12px;
@@ -224,6 +236,7 @@ body {
 
 .article time {
     width: 10.4%;
+    line-height: 1.5;
 }
 
 .article p {
@@ -288,3 +301,159 @@ footer {
     width: 125px;
   }
 
+  .sp_nav{
+    display: none;
+  }
+
+  .btn{
+    display: none;
+  }
+
+@media screen and (max-width:1100px) {
+    .pc_nav {
+        display: none;
+    }
+    .btn{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        top: 22px;
+        right: 28px;
+        height: 30px;
+        z-index: 100;
+    }
+
+    .btn span{
+        background: #fff;
+        width: 33px;
+        height: 3px;
+        display: block;
+        position: relative;
+        top: 10px;
+        transition: 0.3s;
+    }
+
+    .btn span::before, 
+    .btn span::after{
+        content:'';
+        width: 33px;
+        height: 3px;
+        background: #fff;
+        display: block;
+        position: absolute;
+        transition: 0.3s;
+    }
+
+    .btn span::before{
+        bottom: 10px;
+    }    
+
+    .btn span::after{
+        top: 10px;
+    }
+
+    .copy {
+        font-size: 4vw;
+    }
+    
+    .copy h1{
+        font-size: 8.3vw;
+    }
+    
+    .inner_aboutus h2 {
+        font-size: 3.8vw;
+    }
+    
+    .copy p {
+        font-size: 2.8vw;
+    }
+    
+    .inner_aboutus h3 {
+        font-size: 4vw;
+        font-weight: normal;
+        line-height: 1.38;
+    }
+}
+
+.open span{
+    background: transparent;
+}
+
+.open span::before{
+    transform: rotate(45deg);
+    bottom: 0px;
+}    
+
+.open span::after{
+    transform: rotate(135deg);
+    top: 0px;
+}
+
+.sp_nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.sp_nav ul{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sp_nav li{
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 0;
+    font-family:  "A1 Mincho", "游明朝", YuMincho, "Hiragino Mincho ProN W3",
+    "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝",
+    "ＭＳ 明朝", serif;;
+}
+
+
+
+@media screen and (max-width:767px) {
+
+    .slider picture source {
+        max-width: 100%;
+    }
+
+  
+    .copy h1{
+        line-height: 1.15;
+    }
+
+    .copy p {
+        line-height: 1.87;
+        letter-spacing: 0.1em;
+        font-size: 4vw;
+    }
+
+    .sp_copy {
+        display: block;
+    }
+
+    .img_aboutuslogo {
+       display: none;
+    }
+
+    .sp_aboutuslogo img{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .img_photo img{
+        display: none;
+    }
+    
+    .img_photo picture source {
+        border-radius: 0 0 0 0;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
