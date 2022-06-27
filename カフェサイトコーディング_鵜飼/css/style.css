@@ -357,7 +357,7 @@ footer {
     }
     
     .copy h1{
-        font-size: 8.3vw;
+        font-size: 8.7vw;
     }
     
     .inner_aboutus h2 {
@@ -369,7 +369,7 @@ footer {
     }
     
     .inner_aboutus h3 {
-        font-size: 4vw;
+        font-size: 9vw;
         font-weight: normal;
         line-height: 1.38;
     }
@@ -418,12 +418,24 @@ footer {
 
 
 @media screen and (max-width:767px) {
+    .header_wrap {
+        padding: 0;
+    }
+    .header_logo {
+        width: 49%;
+    }
+    .header_logo img {
+    margin: 12px auto 0 20px;
+}
 
-    .slider picture source {
-        max-width: 100%;
+    .slider img {
+        width: 100%;
     }
 
-  
+  .copy {
+    padding: 0 20px;
+  }
+
     .copy h1{
         line-height: 1.15;
     }
@@ -438,22 +450,119 @@ footer {
         display: block;
     }
 
+    #about_us {
+        padding: 0 20px;
+    }
+
     .img_aboutuslogo {
        display: none;
     }
 
-    .sp_aboutuslogo img{
-        display: flex;
-        margin: 0 auto;
-    }
-
-    .img_photo img{
-        display: none;
+    .sp_aboutuslogo {
+        display: block;
+        width: 40%;
+        margin: 0 auto 17px;
     }
     
-    .img_photo picture source {
+    .img_photo img {
         border-radius: 0 0 0 0;
-        max-width: 100%;
-        margin: 0 auto;
+
+    }
+
+    .inner_aboutus {
+        width: 100%;
+    }
+
+    .inner_aboutus h3 {
+        margin: 36px auto 32px;
+        font-size: 8vw;
+    }
+    .inner_aboutus p {
+        line-height: 1.75;
+        font-size: 4vw;
+        font-weight: normal;
+    }
+
+    #menu {
+        padding: 0 20px;
+    }
+
+    .inner_menu {
+        flex-direction: column;
+    }
+
+    .menu {
+        margin: 0 auto 50px;
+        width: 100%;
+    }
+
+    .menu .img_menu img {
+        width: 100%;
+    }
+
+    .menu h3 {
+        font-size: 10vw;
+        margin: -24px auto 24px 12px;
+    }
+
+    .menu p {
+        font-size: 4vw;
+        width: 100%;
+    }
+
+    #event {
+        padding: 0 20px;
+    }
+
+    .gallery2 {
+        display: none;
+    }
+
+    .img_gallery {
+        width: 100%;
+    }
+
+    .gallery1 {
+        width: 100%;
+    }
+
+    .article {
+        display: block;
+    }
+
+    .article time {
+        font-size: 4vw;
+    }
+
+    .article p {
+        margin-left: 0;
+        width: 100%;
+        font-size: 4vw;
+    }
+
+ 
+    .box {
+        padding-left: 30px;
+    }
+
+    footer {
+        padding: 0 20px;
+    }
+
+    .footer_info {
+        display: block;
+    }
+
+    .cafe_info {
+        margin-left: 0;
+        font-size: 4.5vw;
+        line-height: 1.72;
+    }
+
+    .footer_logo {
+        width: 60%;
+        margin-bottom: 36px;
     }
 }
+
+
