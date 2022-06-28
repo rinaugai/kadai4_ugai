@@ -463,7 +463,10 @@ footer {
         width: 40%;
         margin: 0 auto 17px;
     }
-    
+    .img_photo {
+        width: 100%;
+    }
+
     .img_photo img {
         border-radius: 0 0 0 0;
 
@@ -476,11 +479,13 @@ footer {
     .inner_aboutus h3 {
         margin: 36px auto 32px;
         font-size: 8vw;
+        padding-left: 20px;
     }
     .inner_aboutus p {
         line-height: 1.75;
         font-size: 4vw;
         font-weight: normal;
+        padding: 0 20px;
     }
 
     #menu {
@@ -534,12 +539,27 @@ footer {
         font-size: 4vw;
     }
 
-    .article p {
-        margin-left: 0;
-        width: 100%;
+.article p {
+    width: 100%;
+    margin-left: 0;
         font-size: 4vw;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+}
+
+    .article1 {
+        width: 60%;
+        
     }
 
+    .article2 {
+        width: 80%;
+    }
+
+    .article3 {
+        width: 70%;
+    }
  
     .box {
         padding-left: 30px;
