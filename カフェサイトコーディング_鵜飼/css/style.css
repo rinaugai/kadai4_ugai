@@ -248,7 +248,7 @@ body {
 }
 
 .box {
-    padding: 5% 2.9% 5% 8.5%;
+    padding: 5% 5% 5% 5%;
     font-weight: bold;
     border: solid 3px #4f260b;
     background-color: #fff;
@@ -453,7 +453,7 @@ footer {
     }
 
     #about_us {
-        padding: 0 2.6%;
+        padding: 0;
         margin: 0 auto 13.5%;
     }
 
@@ -464,8 +464,13 @@ footer {
     .sp_aboutuslogo {
         display: block;
         width: 40%;
-        margin: 0 auto 2.3%;
+        margin: 0 38% 2.3%;
     }
+
+    .sp_aboutuslogo img {
+        width: 57%;
+    }
+
     .img_photo {
         width: 100%;
     }
@@ -477,18 +482,19 @@ footer {
 
     .inner_aboutus {
         width: 100%;
+        /* padding: 0 2.6%; */
     }
 
     .inner_aboutus h3 {
         margin: 9.7% auto 6.6%;
         font-size: 8vw;
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
     .inner_aboutus p {
         line-height: 1.75;
         font-size: 4vw;
         font-weight: normal;
-        padding: 0 20px;
+        /* padding: 0 20px; */
     }
 
     #menu {
@@ -504,8 +510,12 @@ footer {
         width: 100%;
     }
 
-    .img_menulogo {
-        margin: 0 auto 2.9%;
+    #menu .img_menulogo {
+        margin: 0 43% 2.9%;
+    }
+
+    .img_menulogo img {
+        width: 57%;
     }
 
     .menu .img_menu img {
@@ -527,8 +537,14 @@ footer {
     }
 
     .img_eventlogo {
-        margin: 11.1% auto 8.3%;
+        margin: 11.1% 43% 8.3%;
     }
+    
+    .img_eventlogo img {
+        width: 57%;
+    }
+
+
     .gallery2 {
         display: none;
     }
@@ -538,7 +554,11 @@ footer {
     }
 
     .img_gallerylogo {
-        margin: 5.7% auto 6.3%;
+        margin: 5.7% 39% 6.3%;
+    }
+
+    .img_gallerylogo img {
+        width: 57%;
     }
     .gallery1 {
         width: 100%;
@@ -563,7 +583,16 @@ footer {
 
  
 .img_accesslogo {
-    margin: 12.7% auto 4.2%;
+    margin: 12.7% 39% 4.2%;
+}
+
+.img_accesslogo img {
+    width: 57%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 191px;
 }
 
     footer {
@@ -572,7 +601,7 @@ footer {
 
     .footer_info {
         display: block;
-        padding: 20% 0 15%;
+        padding: 10% 0 15%;
     }
 
     .cafe_info {
@@ -589,6 +618,10 @@ footer {
     .copyright {
         padding-bottom: 10%;
     }
+}
+
+.page_top_btn {
+    width: 100px;
 }
 
 
