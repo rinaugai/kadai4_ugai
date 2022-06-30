@@ -225,7 +225,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 23px;
-    margin: 0 auto 5%;
+    margin: 0 auto 3%;
     font-weight: normal;
 }
 
@@ -234,7 +234,7 @@ body {
 }
 
 .article time {
-    width: 10.4%;
+    width: 10%;
     line-height: 1.5;
 }
 
@@ -247,7 +247,7 @@ body {
 }
 
 .box {
-    padding: 5% 5% 5% 5%;
+    padding: 5% 0;
     font-weight: bold;
     border: solid 3px #4f260b;
     background-color: #fff;
@@ -477,11 +477,11 @@ footer {
     .sp_aboutuslogo {
         display: block;
         width: 40%;
-        margin: 0 38% 2.3%;
+        margin: 0 36% 2.3%;
     }
 
     .sp_aboutuslogo img {
-        width: 57%;
+        width: 160px;
     }
 
     .img_photo {
@@ -526,7 +526,7 @@ footer {
     }
 
     .img_menulogo img {
-        width: 57%;
+        width: 88px;
     }
 
     .menu .img_menu img {
@@ -543,19 +543,6 @@ footer {
         width: 100%;
     }
 
-    #event {
-        padding: 0 2.6%;
-    }
-
-    .img_eventlogo {
-        margin: 11.1% 43% 8.3%;
-    }
-    
-    .img_eventlogo img {
-        width: 57%;
-    }
-
-
     .gallery2 {
         display: none;
     }
@@ -569,10 +556,27 @@ footer {
     }
 
     .img_gallerylogo img {
-        width: 57%;
+        width: 142px;
     }
     .gallery1 {
         width: 100%;
+    }
+
+    #event {
+        padding: 0 2.6%;
+    }
+
+    .img_eventlogo {
+        margin: 11.1% 43% 8.3%;
+    }
+    
+    .img_eventlogo img {
+        width: 100px;
+    }
+
+
+    .box {
+        padding: 5%;
     }
 
     .article {
@@ -598,7 +602,7 @@ footer {
 }
 
 .img_accesslogo img {
-    width: 57%;
+    width: 124px;
 }
 
 .map iframe {
