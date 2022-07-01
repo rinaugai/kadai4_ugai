@@ -476,13 +476,10 @@ footer {
 
     .sp_aboutuslogo {
         display: block;
-        width: 40%;
-        margin: 0 36% 2.3%;
+        width: 160px;
+        margin: 0 auto 2.3%;
     }
 
-    .sp_aboutuslogo img {
-        width: 160px;
-    }
 
     .img_photo {
         width: 100%;
@@ -522,12 +519,10 @@ footer {
     }
 
     #menu .img_menulogo {
-        margin: 0 43% 2.9%;
+        width: 88px;
+        margin-bottom:2.9%;
     }
 
-    .img_menulogo img {
-        width: 88px;
-    }
 
     .menu .img_menu img {
         width: 100%;
@@ -552,12 +547,10 @@ footer {
     }
 
     .img_gallerylogo {
-        margin: 5.7% 39% 6.3%;
+        width: 142px;
+        margin: 5.7% auto 6.3%;
     }
 
-    .img_gallerylogo img {
-        width: 142px;
-    }
     .gallery1 {
         width: 100%;
     }
@@ -567,12 +560,10 @@ footer {
     }
 
     .img_eventlogo {
-        margin: 11.1% 43% 8.3%;
+        width: 100px;
+        margin: 11.1% auto 8.3%;
     }
     
-    .img_eventlogo img {
-        width: 100px;
-    }
 
 
     .box {
@@ -598,12 +589,10 @@ footer {
 
  
 .img_accesslogo {
-    margin: 12.7% 39% 4.2%;
+    width: 124px;
+    margin: 12.7% auto 4.2%;
 }
 
-.img_accesslogo img {
-    width: 124px;
-}
 
 .map iframe {
     width: 100%;
