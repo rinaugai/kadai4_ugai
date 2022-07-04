@@ -6,8 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>カフェサイトコーディング_鵜飼</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
     <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
 
 <body>
@@ -42,6 +47,12 @@
                 <picture>
                     <source srcset="images/sp_main_vs@2x-100.jpg" media="(max-width:767px)">
                     <img src="images/pc_first-100.jpg" alt="カフェの様子">
+                </picture>
+            </li>
+            <li>
+                <picture>
+                    <source srcset="images/sp_main_vs_2@2x-100.jpg" media="(max-width:767px)">
+                    <img src="images/slider_2.jpg" alt="カフェの様子">
                 </picture>
             </li>
         </ul>
@@ -109,6 +120,7 @@
             <img class="gallery2" src="images/pc_gallary_03-100.jpg" alt="カフェ内装">
             <img class="gallery2" src="images/pc_gallary_02-100.jpg" alt="外観">
             <img class="gallery2" src="images/pc_gallary_01-100.jpg" alt="ラテアート">
+            <img class="gallery2" src="images/pc_gallary_01-100.jpg" alt="ラテアート">
         </div>
     </section>
 
@@ -152,9 +164,24 @@
 
     <script>
         $(function () {
-            $('.btn').click(function () {
+            $('.btn,.sp_nav a').click(function () {
                 $('.sp_nav').fadeToggle();
                 $('.btn').toggleClass('open');
+            });
+
+            $('.slider').slick({
+                autoplay: true,
+                autoplaySpeed: 2000,
+                dots: true,
+                arrows: false,
+                pauseOnHover: false
+            });
+
+            $('.img_gallery').slick({
+                slidesToShow: 5,
+                slidesToScroll: 4,
+                // autoplay: true,
+                arrows: true
             });
         });
     </script>
