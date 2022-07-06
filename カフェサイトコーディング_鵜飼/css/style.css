@@ -601,10 +601,6 @@ footer {
         margin: 5.7% auto 6.3%;
     }
 
-    .gallery1 {
-        width:100% !important;
-    }
-
     .slick-next:before{
         width: 11px;
         height: 11px;
